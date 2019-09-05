@@ -1,6 +1,5 @@
 <template>
   <div>
-    <img src="ON IT logo.png" alt="logo" />
     <h2>My Tasks</h2>
 
     <div v-for="task in tasks">
@@ -22,7 +21,7 @@ export default {
       loading: true,
       joke: '',
       categories: [],
-      tasks: [],
+      tasks: [],``
     };
   },
   mounted() {
